@@ -1,0 +1,423 @@
+/*======================== Laptop Navbar ========================*/
+header{
+    width: 100% !important;
+    justify-content: space-between;
+    align-items: center;
+    transition: .7s;
+    background-color: transparent;
+    max-width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.navbar-fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+    box-shadow: 1px 1px #ddd;
+}
+  
+.navbar-fixed-top.scrolled .laptop_navbar nav ul li a {
+    color:#000;
+}
+.navbar-fixed-top.scrolled .laptop_navbar nav ul li a:hover{
+    color:rgb(95, 95, 95);
+}
+
+.navbar-brand img{
+    width: 140px;
+}
+
+.laptop_navbar nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    transition: .07s;
+    
+}
+.laptop_navbar nav ul li a:hover{
+    color: rgb(247, 246, 246);
+    
+}
+.laptop_navbar nav ul li{
+    margin: 20px;
+}
+.laptop_navbar ul li ul{
+    background: #fff;
+    box-shadow: 1px 1px 1px 1px #ddd;
+    width: 310px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+    max-height: 480px;
+    overflow: auto;
+
+    margin-left: -60px;
+
+}
+.laptop_navbar ul li ul li{
+    list-style: none;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(165, 165, 165);
+    padding-top: 7px;
+    padding-bottom: 15px;
+}
+.laptop_navbar ul li ul li a{
+    color: #000;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-right: 50px;
+    transition: .03s;
+    width: 280px;
+    transition: 0.5s;
+}
+.laptop_navbar ul li ul li a:hover{
+    color: #000;
+    margin-left: 15px;
+}
+.laptop_navbar ul li ul li a span{
+    min-width: 250px !important;
+}
+.sub_menu{
+    display: none;
+}
+.laptop_navbar ul li:hover .sub_menu{
+    display: block;
+    position: absolute;
+}
+
+.laptop_navbar ul li ul li a .fa-arrow-right{
+    transition: 0.5s !important;
+    display: none;
+    margin-left: 220px !important;
+}
+.laptop_navbar ul li ul li a:hover .fa-arrow-right{
+    
+    
+    position: absolute;
+    margin-top: -20px;
+
+}
+
+@media(min-width:1024px){
+    .mobile_navbar{
+        display: none;
+    }
+}
+/*======================== Mobile Navbar ========================*/
+@media(max-width:768px){
+    .laptop_navbar{
+        display: none;
+    }
+    .mobile_navbar{
+        display: block;
+    }
+}
+.mobile_navbar ul li ul li{
+    list-style: none;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(165, 165, 165);
+    padding-top: 7px;
+    padding-bottom: 15px;
+}
+.mobile_navbar ul li ul{
+    border: none;
+    background-color: rgb(236, 236, 236);
+}
+.mobile_navbar .fa-arrow-down{
+    margin-left: 240px;
+}
+.mobile_navbar .mobile_logo{
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+/*======================== Banner Section ========================*/
+
+.banner h1{
+    margin-top: -500px;
+    margin-bottom: 30px;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: left;
+    
+}
+.banner p{
+    font-size: 20px;
+}
+.banner img{
+    width: 450px;
+}
+
+.about{
+    background-color: rgb(248, 246, 245);
+}
+.about h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.about{
+    box-sizing: border-box;
+}
+.about p{
+    font-size: 25px;
+    margin-left: 130px;
+}
+.h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.products p{
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.products img{
+    width: 170px;
+    margin-top: 30px;
+}
+.consumer p{
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.consumer img{
+    width: 150px;
+    margin-bottom: 40px;
+}
+.quality h1{
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.quality p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-left: 0;
+}
+.quality img{
+    width: 620px;
+}
+.partner h1{
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+.partner img{
+    width: 180px;
+    max-height: 100px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.manufacturing h1{
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+.manufacturing img{
+    width: 400px;
+    margin-bottom: 30px;
+}
+.service h1{
+    margin-top: 60px;
+}
+.service p{
+    margin-bottom: 60px;
+}
+.service img{
+    width: 600px;
+    margin-bottom: 30px;
+}
+/*======================== Leadership Team Section ========================*/
+
+
+.leadership h1{
+    margin-bottom: 50px;
+}
+.leadership img{
+    width: 300px;
+    height: auto;
+}
+.leadership h4{
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 20px;
+    text-align: left;
+}
+.leadership p{
+    font-weight: 600;
+    font-size: 17px;
+    text-align: left;
+}
+
+.leadership .btn .fa-arrow-right{
+    font-size: 20px;
+    background-color: #0012a9;
+    border-radius: 100%;
+    color: #fff;
+    padding: 20px;
+    margin-right: 15px;
+    margin-left: -15px;
+}
+
+.leadership .btn{
+    transition: 0.7s !important;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 40px;
+}
+
+.leadership .btn:hover{
+    background-color: #0012a9;
+    border-radius: 40px;
+    color: #fff;
+    cursor: pointer;
+    transform: translate(0,0);    
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+
+
+
+
+
+
+/*======================== Responsive Device ========================*/
+
+
+@media(max-width:425px){
+    .post img{
+        width: 400px !important;
+        height: auto !important;
+    }
+    .banner img{
+        width: 425px !important;
+        height: 60vh !important;
+    }
+    .banner h1{
+        font-size: 30px;
+        margin-top: 0px !important;
+        margin-bottom: 10px;
+    }
+    .about h1{
+        font-size: 30px !important;
+    }
+    .about p{
+        font-size: 17px;
+        margin-left: auto;
+    }
+    
+    .fz{
+        font-size: 18px !important;
+    }
+    
+    .products p{
+        font-size: 18px;
+        margin-left: 0 !important;
+    }
+    .consumer p{
+        margin-left: 0;
+    }
+    .quality img{
+        width: 400px;
+    }
+    .leadership h4,p{
+        margin-left: 50px;
+    }
+    .service img{
+        width: 400px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/*======================== Footer Section ========================*/
+
+footer{
+    background-color: #000;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+footer h4{
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+footer h2{
+    margin-bottom: 30px;
+}
+footer p{
+    margin-left: 0;
+}
+
+footer ul li{
+    list-style-type: disclosure-closed;
+    margin-bottom: 10px;
+
+}
+footer ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+footer .social a{
+    text-decoration: none;
+    color: #fff;
+}
+footer .social i{
+    font-size: 40px;
+    margin-right: 15px;
+}
+footer .copyright{
+    color: rgb(153, 153, 153);
+    margin-top: 40px;
+}
+footer .copyright img{
+    width: 30px;
+    height: auto;
+    margin-left: 10px;
+    
+}
+footer .copyright .made{
+    position: absolute;
+    right: 10%;
+    margin-top: -30px;
+}
+
+
+.scroll_top{
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    z-index: 9999;
+}
+.scroll_top a{
+    text-decoration: none;color: #0012a9;
+    background-color: transparent;
+    background-color: #fff;
+    padding: 12px 16px;
+    border-radius: 100%;
+}
+
